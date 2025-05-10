@@ -1,0 +1,10 @@
+README.md
+LICENSE
+
+uv.lock
+
+.python-version
+
+.venv/
+.ruff_cache/
+__pycache__/
