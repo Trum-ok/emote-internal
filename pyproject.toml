@@ -151,6 +151,9 @@ extend-ignore = [
     "ISC002",
 
     "N999",
+
+    "B008",     # Неактуально для FastAPI
+    "RUF029", 
 ]
 
 [tool.ruff.lint.extend-per-file-ignores]
@@ -185,6 +188,9 @@ filterwarnings = [
 pythonpath = ["."]
 
 [dependency-groups]
+dev = [
+    "fastapi[standard]>=0.115.12",
+]
 lint = [
     "ruff>=0.11.8",
 ]
